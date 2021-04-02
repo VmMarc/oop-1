@@ -33,19 +33,4 @@ class Human {
   }
 }
 
-const alice = new Human ('Alice', 'Liddell', 28, ['JS', 'CSS', 'Python', 'C', 'C++', 'Solidity'])
-const bob = new Human ('Bob', 'lemon', 30, ['C++'])
-const charlie = new Human ('Charlie', 'Charlot', 8, ['Solidity'])
-/*
-alice.printInfo()
-bob.printInfo()
-charlie.printInfo()
-*/
-/*
-console.log(alice.canVote())
-console.log(bob.canVote())
-console.log(charlie.canVote())
-*/
-console.log(bob.mostSkilledDev(alice))
-console.log(alice.mostSkilledDev(bob))
-console.log(bob.mostSkilledDev(charlie))
+exports.Human = Human
